@@ -50,3 +50,33 @@ df$col2
 mat=matrix(1:16,nrow = 4,ncol = 4)
 
 class(mat)
+
+#One Dimensional
+onedim=df$col2
+onedim
+class(onedim)
+
+#Convert to Character
+char=as.character(df$col1)
+class(char)
+
+#Convert to Factor
+fact=as.factor(onedim)
+class(onedim)
+class(fact)
+
+
+#Print Letters
+letters[1:10]
+letters[26:15]
+
+#Capital Letters
+LETTERS[1:20]
+LETTERS[25:15]
+
+#Print Repeat
+rep("A",5)
+rep(3,9)
+
+#Check Length
+length(df$col2)
